@@ -1,0 +1,272 @@
+@media screen and (max-width: 825px) {
+
+    .desc {
+        height: 60vh;
+    }
+
+    .desc article {
+        height: 60vh;
+    }
+
+    .main li {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .main a {
+        font-size: 14px;
+    }
+
+    .items-leng {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .item {
+        flex-grow: 1;
+        width: 30%;
+        margin-bottom: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .box-travels {
+        flex-basis: 30%;
+    }
+
+    .cont_footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .contact,
+    .info,
+    .footer .logo {
+        width: 60%;
+        text-align: center;
+        margin-bottom: 35px;
+        /* border: 1px solid red; */
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    .footer .redes {
+        justify-content: center;
+    }
+
+    .content-pg {
+        margin: 20px auto;
+        padding: 35px;
+        width: 90%;
+    }
+
+    .img-nosotros {
+        margin-top: -250px;
+    }
+
+    .cont-form {
+        justify-content: space-between;
+    }
+
+
+    .image-contact,
+    .form-contact {
+        width: 50%;
+    }
+
+    .box-content-pg {
+        justify-content: space-between;
+    }
+
+    .box-travels-pg,
+    .box-description {
+        width: 47%;
+    }
+
+    .leng-lateral {
+        width: 38%;
+    }
+
+
+    .leng-description {
+        width: 55%;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .desc {
+        height: 80vh;
+    }
+
+    .desc article {
+        height: 80vh;
+    }
+
+    .main {
+        display: none;
+    }
+
+    .main li {
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+
+    .main a {
+        font-size: 8px;
+    }
+
+    .desc p {
+        text-align: center;
+    }
+
+    .item {
+        width: 50%;
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+
+    .btn,
+    input[type="submit"],
+    input[type="button"] {
+        padding: 12px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 14px;
+    }
+
+    .servicios article {
+        width: 35%;
+    }
+
+
+    .servicios img {
+        width: 30%;
+        margin-bottom: 20px;
+    }
+
+    .box-travels {
+        flex-basis: 50%;
+        margin: 20px 50px;
+    }
+
+    .contact,
+    .info,
+    .footer .logo {
+        width: 90%;
+    }
+
+    .cont_footer {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .leng-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .leng-lateral,
+    .leng-description {
+        width: 90%;
+        margin-bottom: 35px;
+        text-align: center;
+    }
+
+    .box-content-pg {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box-travels-pg,
+    .box-description {
+        width: 80%;
+        margin-bottom: 35px;
+    }
+
+    .content-pg {
+        padding: 0px;
+    }
+
+    .logo img {
+        width: 85%;
+    }
+
+
+    .desc .description {
+        font-size: 25px;
+    }
+
+    .desc p {
+        font-size: 32px;
+    }
+
+    .desc input[type="text"] {
+        width: 75%;
+        height: 20px;
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about .desc-about,
+    .about .img-about {
+        width: 90%;
+    }
+
+    .about .img-about {
+        margin-right: 0px;
+        order: -1;
+    }
+
+    .about .desc-about {
+        align-items: center;
+    }
+
+    .img-nosotros {
+        margin-top: -100px;
+    }
+
+    .cont-form {
+        flex-direction: column;
+
+    }
+
+    .image-contact,
+    .form-contact {
+        width: 90%;
+        margin-bottom: 65px;
+    }
+
+    .form-contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .image-contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}

@@ -1,0 +1,22 @@
+{% extends 'layout/index.html' %} {% load static %} {% block title %} Inicio
+{%endblock %} {% block content %}
+
+<div class="header-title">
+  <h1>{{title}}</h1>
+  <div class="add">+</div>
+</div>
+<div class="box">
+  {% for client in clients %}
+  <div class="box-client">
+    <img src="{{client.image.url}}" alt="{{client.name}}" />
+    <div class="detail">
+      <h3>{{client.name}}</h3>
+
+      <a href="{% url 'client' %}">
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}
